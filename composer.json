@@ -1,0 +1,28 @@
+{
+  "name": "tourze/yii2-flowchart",
+  "description": "Yii2 & flowchart.js",
+  "keywords": [
+    "yii2",
+    "flowchart"
+  ],
+  "homepage": "https://github.com/tourze/yii2-flowchart",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "tourze",
+      "email": "dev@tourze.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*",
+    "bower-asset/raphael": "^2.1",
+    "bower-asset/flowchart": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "tourze\\yii2\\flowchart\\": "src/"
+    }
+  }
+}
